@@ -25,6 +25,8 @@ We don't recommend VS Codium or VS Code, but it is a popular development environ
 
 Install an [Anaconda distribution](https://docs.anaconda.com/free/anaconda/install/), follow the installation instructions for your OS (operating system). Then, [verify](https://docs.anaconda.com/free/anaconda/install/verify-install/) that Anaconda has been installed correctly. 
 
+__Anaconda is going to ask you to make a profile, there is no need for that. There is a small "skip Registration" button. Click on that.__
+
 There is the option to choose miniconda, which is a basic version of Anaconda containing only the most bare-boned backages. 
 Its much smaller, but unless you are an expert in installing packages and working with package managers(!), we recommend installing the larger Anaconda package which comes with everything you need.
 
@@ -32,7 +34,7 @@ Its much smaller, but unless you are an expert in installing packages and workin
 
 ### Step 2a: Open up the jupyter notebook application - many possible ways!
 We will work with jupyter notebooks (`.ipynb`) in this class. The jupyter notebook application is part of the Anaconda distrubution you installed in the previous step. There are multiple ways of opening up the jupyter notebook application. Make sure you try out the different steps:
-1. Through the Anaconda Navigator, in your browser: go to the Anaconda Navigator, search for jupyter notebook, and click `Launch`
+1. Through the Anaconda Navigator, in your browser: go to the Anaconda Navigator, search for jupyter notebook, and click `Launch` (We have experienced that Windows users have issues opening jupyter notebooks with this option, if it does not work for you, go for option 3, or talk to the TAs.)
 2. (only possible if you installed VS Codium) Through Anaconda Navigator, in VS Codium: go to the Anaconda Navigator, search for VS Codium, and `Launch` (more details [here](https://www.anaconda.com/docs/tools/anaconda-navigator/main); alternatively, you can also launch VS Codium directly and use the file browsing system to open up or create a jupyter notebook)
 3. Through the command line interface (CLI): open your CLI (see below), type `jupyter notebook` and press Enter. The notebook should then open in a browser window. I, __Vedran__, personally prefer this option. 
 
