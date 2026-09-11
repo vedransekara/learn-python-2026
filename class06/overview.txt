@@ -1,0 +1,5 @@
+Marie	7
+Sarah	15
+Paul	8
+Brian	20
+Mette	11
